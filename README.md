@@ -13,17 +13,18 @@
 
 ```
 project_directory/
+├── generated_graphs/
 ├── AMP1000.csv
-├── Fasta_trans.py
 ├── ESM_2.py
-├── run_ESMfold.py
-├── distance.py
-├── construct_graph.py
+├── Fasta_trans.py
 ├── GVAE.py
+├── construct_graph.py
+├── distance.py
+├── generative_graph.png
+├── loss_plot.png
 ├── output_AMP1000.fasta
 ├── processed_AMP1000_data.csv
-├── loss_plot.png
-└── generated_graphs/
+└── run_ESMfold.py
 ```
 
 ## How to Run
