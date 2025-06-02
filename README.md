@@ -9,6 +9,23 @@
 * **CUDA Version**: 11.7 or higher
 * **Other Packages**: pandas, numpy, biopython, torch-geometric, einops, matplotlib, transformers, scipy, tqdm, esm
 
+## Directory Structure
+
+```
+project_directory/
+├── AMP1000.csv
+├── Fasta_trans.py
+├── ESM_2.py
+├── run_ESMfold.py
+├── distance.py
+├── construct_graph.py
+├── GVAE.py
+├── output_AMP1000.fasta
+├── processed_AMP1000_data.csv
+├── loss_plot.png
+└── generated_graphs/
+```
+
 ## How to Run
 
 ### 1. Create and Activate Conda Environment
@@ -71,23 +88,6 @@ python GVAE.py
 
 * Training loss plot will be saved to `loss_plot.png`
 * The GVAE model will learn latent representations of protein graphs
-
-### Directory Structure
-
-```
-project_directory/
-├── AMP1000.csv
-├── Fasta_trans.py
-├── ESM_2.py
-├── run_ESMfold.py
-├── distance.py
-├── construct_graph.py
-├── GVAE.py
-├── output_AMP1000.fasta
-├── processed_AMP1000_data.csv
-├── loss_plot.png
-└── generated_graphs/
-```
 
 ### Notes
 
