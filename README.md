@@ -89,6 +89,8 @@ python GVAE.py
 * Training loss plot will be saved to `loss_plot.png`
 * The GVAE model will learn latent representations of protein graphs
 
+![image](https://github.com/YYChang34/Antimicrobial-Peptides-Graph-Generation-via-ESM2-and-GVAE/blob/main/loss_plot.png)
+
 ### Notes
 
 * ESM2 and ESMFold models are provided by Meta AI's [ESM repository](https://github.com/facebookresearch/esm)
